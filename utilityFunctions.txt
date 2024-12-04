@@ -1,0 +1,33 @@
+print("message",end)  => print a message in console
+
+type(object)   => return datatype of object
+
+input("message")  => read value from console and return string value
+
+round(object,precision) =>used for rounding off numbers up to a specified number of digits after the decimal point
+
+len() => length of string
+
+range(start,stop,step) => used in for loop
+
+min(num1,num2) => return smallest number
+
+max(num1,num2) => return largest number
+
+abs(number)    =>Returns the absolute value of a number.
+
+sorted(iterable, reverse=False) =>Returns a sorted list of items from the iterable.
+
+set(iterable)=>  Converts an iterable to a set, removing duplicates.
+
+list(iterable)=> Converts an iterable (like a string or tuple) into a list.
+
+dict()=> Creates a dictionary object.
+
+str(object)=>  Converts an object to a string.
+
+bool(value)=> Converts a value to a Boolean (True or False).
+
+isinstance(object, class)=> Checks if an object is an instance of a specified class.
+
+slice(start, stop, step)=>  Returns a slice object representing a set of indices.
