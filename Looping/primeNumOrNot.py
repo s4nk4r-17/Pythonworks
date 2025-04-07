@@ -25,24 +25,37 @@
 
 # using for loop
 
-number=int(input("Enter a number:")) 
+# number=int(input("Enter a number:")) 
 
-if number<2:
-    is_prime=False
+# if number<2:
+#     is_prime=False
 
-else:
-    is_prime=True
+# else:
+#     is_prime=True
 
-    for i in range(2,number):   #i=2,3,4,5,6,7,8
+#     for i in range(2,number):   #i=2,3,4,5,6,7,8
 
-        if number%i==0:
+#         if number%i==0:
 
-            is_prime=False
+#             is_prime=False
 
-            break
+#             break
 
-print(is_prime)
+# print(is_prime)
 
+def is_prime(n):
 
+    if n<2:
 
+        return False
+    
+    for i in range(2,n):
+
+        if n%i==0:
+
+            return False
+    
+    return True
+
+print(is_prime(8))
 

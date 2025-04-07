@@ -1,20 +1,20 @@
-# prev=0
+prev=0
 
-# current=1
+current=1
 
-# print(prev)
+print(prev)
 
-# print(current)
+print(current)
 
-# for i in range(1,8):
+for i in range(1,8):
 
-#     next=current+prev
+    next=current+prev
 
-#     print(next)
+    print(next)
 
-#     prev=current
+    prev=current
 
-#     current=next
+    current=next
 
 
 
@@ -66,25 +66,26 @@
 
 #program to check is 51 fibonacci number?
 
-a=0
-b=1
+# a=0
+# b=1
+# print(a)
+# print(b)
+# number=51
+# i=0
 
-number=51
-i=0
+# while i<15:
+#     c=a+b   #1
 
-while i<15:
-    c=a+b   #1
 
-    a=b     #a=1
-    b=c     #b=1
-    i=i+1   
-
-    if c==number:
-        print("yes")
-        break
+#     a=b     #a=1
+#     b=c     #b=1
+#     i=i+1   
+    # if c==number:
+    #     print("yes")
+    #     break
     
-else:
-    print('no')
+    # else:
+    #     print('no')
 
 #using for loop
 

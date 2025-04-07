@@ -1,7 +1,7 @@
 
 #           define is  duplicates-allowed   insertion_order_preserved        mutable        methods   
 
-#list      []orlist()    allowed                yes                             yes         append(),insert(),index(),sort(),pop(),extend(),copy(),reverse(),count(),clear(),remove()
+#list      []orlist()    allowed                yes                             yes         append(),insert(),extend(),index(),sort(),pop(),copy(),reverse(),count(),clear(),remove()
 #tuple         ()        allowed                yes                             no          index(),count()  
 #set       {}orset()       no                   no                              yes         add(obj),intersection(),union(),difference(),remove(),issuperset(),issubset(),symmetric_difference(),updates
 #dictionay     {}       duplicate key is      Can't be                          yes         get(),pop(),keys(),values(),items()
