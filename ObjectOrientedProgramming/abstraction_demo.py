@@ -44,3 +44,22 @@ hunter_instance=Hunter()
 hunter_instance.start()
 
 
+
+
+from abc import ABC,abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def makes_sound(self):
+
+        pass
+
+class Dog(Animal):
+
+    def makes_sound(self):
+        return "bark"
+    
+dog=Dog()
+
+print(dog.makes_sound())

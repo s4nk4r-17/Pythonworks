@@ -15,6 +15,19 @@ add=lambda num1,num2:num1+num2
 
 print(add(100,200))
 
+#square using lambda and traditional
+
+def square(num):
+
+    return num**2
+
+print("square is",square(5))
+
+square=lambda a:a**2
+
+print(square(5))
+
+
 #using lambda function for subtracting 2 numbers
 
 sub=lambda n1,n2:n1-n2
@@ -27,6 +40,7 @@ cube=lambda n:n**3
 
 print(cube(3))
 
+#to find max of 2 strings   
 def max_two(str1,str2):
 
     return max(len(str1),len(str2))
@@ -68,3 +82,4 @@ print(min(words,key=get_length))
 get_length=lambda word:len(word)
 
 print(max(words,key=get_length))
+

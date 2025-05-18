@@ -17,3 +17,4 @@ for i in range(0,len(arr)-1):
             duplicate_number.append(arr[i])
 
 print(duplicate_number)
+

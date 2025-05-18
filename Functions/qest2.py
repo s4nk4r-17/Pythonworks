@@ -6,20 +6,34 @@
 # Output: A boolean value indicating whether the string is a palindrome.
 # is_palindrome("racecar") # should return True
 
-def is_palindrome(string):
+# def is_palindrome(string):
     
-    rev_str=""
+#     rev_str=""
 
-    for char in string:
+#     for char in string:
 
-        rev_str=char+rev_str
+#         rev_str=char+rev_str
 
-    if string==rev_str:
+#     if string==rev_str:
 
-        return True
+#         return True
 
-    else:
+#     else:
 
-        return False
+#         return False
+
+# print(is_palindrome("racecar"))
+
+#or
+
+def is_palindrome(str):
+
+    return str==str[::-1]
 
 print(is_palindrome("racecar"))
+
+#lambda function
+
+is_palindrome=lambda str:str==str[::-1]
+
+print(is_palindrome("malam"))

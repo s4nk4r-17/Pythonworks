@@ -27,3 +27,9 @@ def is_palind(num):
     return True if rev_num==str(num) else False
 
 print(is_palind(121))
+
+#lambda function
+
+palindrome=lambda n:str(n)==str(n)[::-1]
+
+print(palindrome(123))

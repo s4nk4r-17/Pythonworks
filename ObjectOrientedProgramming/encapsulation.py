@@ -1,4 +1,5 @@
-# Encapsulation restricts direct access to object data
+# It refers to the bundling of data (variables) and methods (functions) 
+# that operate on the data into a single unit — a class, and restricting access to some of the object’s internal parts.
 
 class BankAccount:
 
@@ -20,3 +21,4 @@ account=BankAccount(1000)
 account.deposit(500)
 
 print(account.get_balance())
+

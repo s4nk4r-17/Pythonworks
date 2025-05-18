@@ -20,4 +20,14 @@ for w in words:
 
 print(word_dictonary)
 
+#or
 
+# text="hai hello hai hello world"
+
+# word=text.split(" ")
+
+# print(word)
+
+# word_count={w:word.count(w) for w in word}
+
+# print(word_count)

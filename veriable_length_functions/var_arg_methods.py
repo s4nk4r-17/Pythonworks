@@ -2,11 +2,11 @@
 
 def add_number(*args): #accept any number of arguments as tuple
 
-        print(args)
+        print(sum(args))
 
-add_number(87,21)
+add_number(87,21)   #108
 
-add_number(22,2,12,3,2)
+add_number(22,2,12,3,2)  #41
 
 #_______________________________________________
 
@@ -20,7 +20,7 @@ def product(*args):
         
     return result
 
-print(product(10,20,30))
+print(product(10,20,30)) #6000
 
 #___________________________________________
 
@@ -28,7 +28,7 @@ def add_numbers(*args):
 
     return sum(args)
 
-print(add_numbers(10,20))
+print(add_numbers(10,20))     #30
 
 #______________________________________________________
 

@@ -23,3 +23,9 @@ def is_odd(num):
     return True if num%2!=0 else False
 
 print(is_odd(5))
+
+#lambda
+
+odd=lambda n:n%2!=0
+
+print(odd(3))

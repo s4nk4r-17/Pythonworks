@@ -1,4 +1,4 @@
-# #list comprehension
+# #list comprehension:-List comprehension provides a concise way to create lists
 
 # arr=[2,3,4,5,6,7]
 
@@ -19,6 +19,7 @@
 # squares=[num**2 for num in arr]
 
 # print(squares) #[4, 9, 16, 25, 36, 49]
+
 
 #_____________________________________________________________
 
@@ -50,9 +51,11 @@
 # arr=[2,3,4,5,6,7,8]
 
 # even_numbers=[num for num in arr if num%2==0]
-#________________________________________________________________
 
 # print(even_numbers) #output:-[2, 4, 6, 8]
+
+#________________________________________________________________
+
 
 # arr=[2,3,4,5,6,7,8,9]
 
@@ -95,6 +98,7 @@
 #longest word
 
 text=["apple","orange","iphone","potatto","tomatto"]
+
 
 # longest_word=text[0]
 

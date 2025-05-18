@@ -4,7 +4,7 @@ arr1=[10,13,8,11,20]
 
 arr2=[2,20,8,7,13]
 
-#common elements without using "in" 
+# #common elements without using "in" 
 
 for i in range(0,len(arr1)):
 
@@ -15,7 +15,3 @@ for i in range(0,len(arr1)):
             print(arr1[i])
 
 
-
-
-
-    

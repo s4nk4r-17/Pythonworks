@@ -19,3 +19,9 @@ def num_chk(num):
         return "Odd"
     
 print(num_chk(2))
+
+#lambda function
+
+num_chk=lambda n:"Even" if n%2==0 else "Odd"
+
+print(num_chk(7))

@@ -10,31 +10,38 @@
 
 # colors=["red","green","blue"]
 
-#colors.append() #inset new object end of the list
+# colors.append() #inset new object end of the list
 
 # colors.append("yellow")
 
-# print(colors)
+# print(colors)   #['red', 'green', 'blue', 'yellow']
 
 # colors.pop()remove the last object from list and returns it
 
 # colors.pop()
 
-# print(colors)
+# print(colors)   #['red', 'green', 'blue']
 
 #to remove green put index number
 
 # colors.pop(1)
 
-# print(colors)
+# print(colors)   #['red', 'blue']
 
 # colors.insert(0,"purple")
 
-# print(colors)
+# print(colors)   #['purple', 'red', 'blue']
 
 # red_index=colors.index("red")#returns index of first occurance red
 
-# print(red_index)
+# print(red_index)    #1
+
+# colors.remove('purple')
+
+# print(colors)   #['red','blue']
+
+
+#____________SORT________________________
 
 # lst=[2,6,3,4,5,6]
 
@@ -59,3 +66,44 @@
 # print(products)
 
 # output:-['mango', 'orange', 'apple', 'brinjal', 'potatto', 'onion']
+
+#_____________________COPY_____________________
+
+# lst=[1,2,3,4,5,6]
+
+# new_lst=lst.copy()
+
+# print(new_lst)  #[1, 2, 3, 4, 5, 6]
+
+# new_lst1=list(lst)
+
+# print(new_lst1) #[1, 2, 3, 4, 5, 6]
+
+# new_lst2=lst[:]
+
+# print(new_lst2) #[1, 2, 3, 4, 5, 6]
+
+
+
+
+#___________JOIN______________________________
+
+#join two list
+
+# lst1=[1,2,3]
+# lst2=['ram','sham','john']
+
+# # lst3=lst1+lst2
+# # print(lst3) #[1, 2, 3, 'ram', 'sham', 'john']
+
+# # lst1.extend(lst2)
+
+# # print(lst1) #[1, 2, 3, 'ram', 'sham', 'john']
+
+# for x in lst2:
+
+#     lst1.append(x)
+
+# print(lst1) #[1, 2, 3, 'ram', 'sham', 'john']
+
+#______________________________________________

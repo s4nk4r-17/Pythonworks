@@ -20,3 +20,5 @@ def multi_table(num):
         print(num,"*",i,"=",num*i)
 
 multi_table(3)
+
+
